@@ -1,0 +1,329 @@
+/**
+ * @file
+ * Layout styling
+ */
+
+/**
+ * escuro: 632314
+ * medio: 953518
+ * claro: f3e7a6
+ */
+body{
+  margin:0;
+  padding: 0;
+  color: #363636;
+  font-family: Arial,Tahoma,Verdana;
+  font-size: 14px;
+/*   background:url('../images/bg-not-front.gif') no-repeat center top #F5F5F5; */
+}
+
+body.with-slideshow {
+/*   background:url('../images/bg-pattern-t.gif') no-repeat center top #F5F5F5; */
+}
+
+body.toolbar-drawer {
+  background-position: center 65px !important;
+}
+
+/**
+ * header
+ */
+#header{
+  margin-bottom:30px;
+  height: 115px;
+  position:fixed;
+  background-color:white;
+  z-index:400;
+  padding-bottom:15px;
+  width:100%;
+}
+
+body.with-slideshow #header{
+  margin-bottom:0px;
+}
+
+#header .section{
+  height:100%;
+  width:940px;
+  margin:0 auto;
+}
+
+#site-logo-and-name {
+  height:100%;
+  position:relative;
+  float: left;
+  width: 100%;
+  margin-right:-50%;
+}
+
+#site-logo-and-name  #logo {
+  height:100%;
+  float:left;
+}
+
+#site-logo-and-name #logo img{
+  height:100%;
+  width:auto;
+}
+
+#site-logo-and-name #name-and-slogan {
+  float:left;
+}
+
+.logo-on-right #site-logo-and-name {
+  float:right;
+  overflow:hidden;
+}
+
+.logo-on-right #site-logo-and-name #logo {
+  float:right;
+}
+
+.logo-on-right #site-logo-and-name {
+  float:right;
+}
+
+.with-slogan #header .section{
+  height:120px;
+}
+
+#name-and-slogan{
+  margin-top:40px;
+  margin-left:10px;
+  margin-right:-20px;
+}
+
+body.with-slideshow #site-logo-and-name  #logo img{
+  height:170%;
+}
+body.with-slideshow #name-and-slogan{
+  margin-top:81px;
+}
+
+#site-name{
+  margin:0;
+  font-size:40px;
+  font-weight:lighter;
+  line-height:normal;
+  float:left;
+}
+
+.logo-on-right #site-name {
+  float:right;
+}
+
+#site-name a{
+  color:#632314;
+  text-decoration:none;
+/*   font-family: SansationLight; */
+}
+
+#site-name a:hover {
+  color:#953518;
+/*   text-decoration:none; */
+}
+
+#site-slogan{
+  clear: both;
+  color: #C0C0C0;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 5px;
+  margin-left: 0;
+}
+
+.region-header {
+  margin-left:400px;
+  height:100%;
+/*   line-height:100px; */
+  width:540px;
+  z-index:1000;
+}
+
+
+.logo-on-right .region-header {
+  float:left;
+  margin:0;
+}
+
+#block-nice-menus-1,#block-nice-menus-1 .content{
+  height:100%;
+}
+#block-nice-menus-1 ul.nice-menu li a{
+  color:#000000;
+}
+#block-nice-menus-1 ul.nice-menu li.active-trail a{
+  color:#c0c0c0;
+}
+#block-nice-menus-1 ul.nice-menu li a:hover,
+#block-nice-menus-1 ul.nice-menu li.over a{
+  color:#ffffff !important;
+}
+
+#block-user-login{
+  position:relative;
+  z-index:1001;
+  width:390px;
+  margin-left:140px;
+  text-align:right;
+}
+#toboggan-login{
+    background: none repeat scroll 0 0 white;
+    border: 1px solid gray;
+    display: block;
+    padding: 50px;
+    width: 300px;
+}
+#toboggan-login label{
+  display:inline;
+}
+div.user-login-block{
+  text-align: right;
+}
+div.toboggan-login-link-container{
+  text-align:right!important;
+}
+/**
+ * Banner
+ */
+#slideshow {
+/*   background: url("../images/shadow.png") no-repeat scroll center bottom transparent; */
+  margin: 0 auto;
+  overflow: hidden;
+  padding-bottom: 50px;
+  position: relative;
+  width: 940px;
+  height:400px;
+}
+
+#slideshow h2.block-title {
+  display:none;
+}
+
+#slideshow p{
+  margin:0;
+}
+
+#slider {
+  height:400px;
+  width:940px;
+}
+
+/**
+ * Hightlight
+ */
+#highlight {
+  width:800px;
+  margin:0 auto;
+  padding:20px 0;
+}
+
+#highlight h1,
+#highlight h2 {
+  border-color: #CCCCCC;
+  border-style: dashed;
+  border-width: 1px 0;
+  font-family: DroidSerifItalic;
+  font-size: 22px;
+  font-weight: normal;
+  padding: 5px 0;
+  text-align: center;
+}
+
+/**
+ * Page wrapper
+ */
+
+body.with-slideshow #page-wrapper{
+  padding-top:130px;
+}
+#page-wrapper{
+  width:940px;
+  margin:0 auto;
+  clear:both;
+  padding-top:130px;
+}
+
+#main {
+  padding:0 0 50px 0;
+}
+
+body.with-slideshow #main{
+  padding:0 0 50px;
+}
+
+/**
+ * Sidebar
+ */
+.with-sidebar #main {
+}
+
+.with-sidebar #content {
+  float:left;
+  width:600px;
+}
+
+.with-sidebar #sidebar {
+  margin-left:680px;
+}
+
+/**
+ * Footer
+ */
+#footer{
+  background:url('../images/bg-pattern.gif') no-repeat center top #0B0D12;
+  clear:both;
+}
+
+#footer .section{
+  width:940px;
+  padding:30px 0;
+  overflow:hidden;
+  color: #5C5D5E;
+  font-size:11px;
+  margin:0 auto;
+}
+
+/**
+ * maintenance-page
+ */
+.maintenance-page #site-logo-and-name {
+    margin: 0 auto;
+    text-align: center;
+    width: auto;
+    float:none;
+}
+
+.maintenance-page #content{
+  border-color: #CCCCCC;
+  border-style: dashed;
+  border-width: 1px 0;
+  font-family: DroidSerifItalic;
+  font-size: 22px;
+  line-height: 30px;
+  margin: 50px auto;
+  overflow: hidden;
+  padding: 10px 0;
+  text-align: center;
+}
+
+
+
+
+/**
+ * ODA
+ */
+
+.field-name-field-imagem-destaque{
+  float:left;
+  margin:0 10px 10px 0;
+}
+
+.basic-help{
+  margin-top:40px;
+  text-align:center;
+}
+.basic-help i{
+  font-size:100px;
+  color:#c0c0c0;
+}
